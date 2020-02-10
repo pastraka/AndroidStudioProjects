@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "628505039969",
+    "firebase_url": "https://androidtest-roehamptonuni.firebaseio.com",
+    "project_id": "androidtest-roehamptonuni",
+    "storage_bucket": "androidtest-roehamptonuni.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628505039969:android:c98ba94697d02f24ac0620",
+        "android_client_info": {
+          "package_name": "com.example.androidtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628505039969-chi7ru3ij9noir27ernd7estk6hg1qvu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.androidtest",
+            "certificate_hash": "87a3b3fbec3efe0db98b1de7d18a16aa181c485b"
+          }
+        },
+        {
+          "client_id": "628505039969-7iaukorse23au1si4s8rdviev39fs2dk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7WHW9A7X7JMEyen0E-3vgtPQu32Nk3Rs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628505039969-7iaukorse23au1si4s8rdviev39fs2dk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
