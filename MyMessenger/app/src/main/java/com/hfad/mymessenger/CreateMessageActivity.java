@@ -20,10 +20,12 @@ public class CreateMessageActivity extends AppCompatActivity {
         EditText messageView = findViewById(R.id.message);
 //        get the text from the editable text field with an ID of message
         String messageText = messageView.getText().toString();
-        Intent intent = new Intent(this, ReceiveMessageActivity.class);
-//        add the text to the intent, give in it a name "message".
-        intent.putExtra(ReceiveMessageActivity.EXTRA_MESSAGE, messageText);
-//        start Activity ReceiveMessageActivity
-        startActivity(intent);
+//        creating an intent that uses a send action
+        Intent intent = new Intent(Intent.ACTION_SEND);
+        intent.setType("text/plain");
+        intent.putExtra(Intent.EXTRA_TEXT, messageText);
+        String chooserTitle = getString(R.string.chooser);
+        Intent chooseIntent = Intent.createChooser(intent, chooserTitle);
+        startActivity(chooseIntent);
     }
 }

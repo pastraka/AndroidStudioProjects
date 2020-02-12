@@ -2,4 +2,6 @@
     <string name="app_name">My Messenger</string>
     <string name="hint">Enter a message</string>
     <string name="send">Send message</string>
+<!--    this will be displayed in the chooser dialog-->
+    <string name="chooser">Send message via…</string>
 </resources>
